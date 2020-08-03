@@ -4,12 +4,13 @@ import {
   Step,
 } from "code-surfer";
 import { github, vsDark } from "@code-surfer/themes";
-import { Split } from 'mdx-deck'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { Split, Invert } from 'mdx-deck'
 
 import Avatar from './src/IMG_20191205_214533.jpg'
 import LogoPSL from './src/logo_psl.png'
 import Gato from './src/gato.jpeg'
+import GithubProfile from './src/github-profile.png'
+import JamStackImage from './src/jamstack.png'
 
 import MarkdownOrigen from './src/markdownOrigen.mdx'
 import MarkdownDemo1 from './src/markdownDemo1.mdx'
@@ -91,15 +92,37 @@ o en redes sociales como @scot3004
 
 ---
 
+# Casos de uso
+
+Es muy usado para documentar repositorios git
+
+Por ejemplo el tradicional README.md en:
+
+- Bitbucket
+- Gitlab
+- Github
+
+---
+
+<img src={GithubProfile} alt="Github profile https://github.com/scot3004"/>
+
+---
+
+# JAMStack
+ 
+
+---
+
+<img src={JamStackImage} style={{ height: '100vh'}} alt="Javascript, APIS, Markup"/>
+
+---
+
 # Crear mis propios slides
 
 Este slide se hizo usando [MDX Deck](https://github.com/jxnblk/mdx-deck)
 y [Code Surfer](https://codesurfer.pomb.us)
 
 Internamente MDX Deck usa [Gatsby](https://www.gatsbyjs.org/)
-
----
-Gracias
 
 ---
 
@@ -109,7 +132,7 @@ Gracias
 
 <img src={Gato} alt="Gatito" />
 
-## La curiosidad mato al gato
+## <p style={{color: "#ffdb58"}}>La curiosidad mato al gato</p>
 
 ### lo bueno es que murió sabiendo
 
