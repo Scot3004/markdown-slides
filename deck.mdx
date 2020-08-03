@@ -4,7 +4,7 @@ import {
   Step,
 } from "code-surfer";
 import { github, vsDark } from "@code-surfer/themes";
-import { Split, Invert } from 'mdx-deck'
+import { Split, SplitRight, Invert } from 'mdx-deck'
 
 import Avatar from './src/IMG_20191205_214533.jpg'
 import LogoPSL from './src/logo_psl.png'
@@ -36,7 +36,7 @@ export const theme = vsDark;
 [Software Engineer](https://www.psl.com.co/empleo/test-automation-engineer) en
 [<img src={LogoPSL} alt="Mi foto en un aeropuerto"/>](https://www.psl.com.co/)
 
-Puedes contactarme en mi sitio web [![Logo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0xMDA0LjM2MikiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIyLjU0OSAxMDI3LjI1aC4wODItLjA4MnoiIHN0cm9rZT0iIzAwOWFhOSIgc3Ryb2tlLXdpZHRoPSIuMDI5IiBzdHJva2Utb3BhY2l0eT0iLjk0NSIvPjxlbGxpcHNlIGN4PSIyMy45ODMiIGN5PSIxMDI4LjM4MiIgcng9IjIzLjExNCIgcnk9IjIzLjExMiIgZmlsbD0iI2VlZSIgc3Ryb2tlPSIjMjIyIiBzdHJva2Utd2lkdGg9IjEuNzM3Ii8+PHBhdGggZD0iTTM4LjU0OSAxMDEyLjI4NmMtMy42NDItLjg3My04LjAyNS0yLjAzNS0xMS44MTUtMi4xOXYtMy4wNjZjNS4xMi40MTQgMTAuODAzIDMuNzYgMTEuODE1IDUuMjU2eiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik0yLjA1NiAxMDI1LjcxNWMuMDA4LS42MjUuNjkyLTMuMzggMS4xNjQtNC42ODggMi45OTEtOC4yOCAxMC42MjctMTUuMzMyIDE5LjQxMi0xNC41OTJsMS4wMjYuMDg2djQuNjM4bC0xLjAyNi4wNGMtNS40NzQuMjEzLTkuMTY3IDMuMTEtMTAuOTg5IDYuNzg5LS40OTQuOTk2LS41NzIgMS4zNDMtLjU2OSAyLjUuMDAzIDEuMDMuMDk1IDEuNTE0LjM5MyAyLjA3Ny40OTMuOTMyIDEuOTA4IDIuMDQgMy4xOTUgMi44ODNsMS4xNDYuNzVjLTQuMzg4LS4yMjgtOS44MDIuMDI2LTEzLjcyIDB6bTI0LjExMyAxOC45NjhjMTEuNDM1LS42MzggMTcuMjctOS42MTYgOC4wMzgtMTYuMzgzIDQuMzc1LS4wMSA3LjYyMi0uMDQ4IDExLjk5Ny0uMDU0LS42NDIgMTMuNDkyLTEwLjYgMjAuOTEtMTkuOTkgMjEuODQ2eiIgc3Ryb2tlPSIjMjIyIiBzdHJva2Utd2lkdGg9Ii4zMSIvPjxwYXRoIGQ9Ik03LjM2MSAxMDQyLjM3NGM1LjM4MiAxLjI5NCAxMS4wMTUgMi40NjMgMTYuMDQ0IDIuNzI5djUuMzI2Yy02LjQ1OS0uMjEtMTMuMS0zLjk0MS0xNi4wNDQtOC4wNTV6IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9nPjxwYXRoIGQ9Ik0yLjI3MiAyM2g0My45ODJNMjUgNDUuODdWMS40NzgiIGZpbGw9IiM5OTkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjNjliZmM4IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PGVsbGlwc2UgY3g9IjIzLjk4MyIgY3k9IjI0LjAxOSIgcng9IjIzLjExNCIgcnk9IjIzLjExMiIgZmlsbD0iI2VlZSIgZmlsbC1vcGFjaXR5PSIwIiBzdHJva2U9IiMwMDlhYTkiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIG9wYWNpdHk9Ii45OSIvPjxwYXRoIGQ9Ik00LjM0MiAzNS43ODRzMzAuMDQ1IDkuODgzIDMzLjMxOC0zLjQwNUMzOS45NjIgMjMuMDM1IDI1IDIzIDI1IDIzUzYuNTUgMjEuNzQgMTMuODcyIDExLjkyOUMyMS4yNjUgNC42NTUgMzIuOTEgOC4yOSA0Mi4wNSA5Ljk5MiIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2U9IiMwMDlhYTkiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)secorto.com](https://www.secorto.com/)
+Puedes contactarme en mi sitio web [![Logo](https://www.secorto.com/img/logo.png)](https://www.secorto.com/)
 o en redes sociales como @scot3004
 
 </Split>
@@ -143,7 +143,7 @@ Por ejemplo el tradicional README.md en:
 
 <Step>
 
-```markdown file=./src/secorto/index.mdx
+```markdown file=./src/secorto/index.mdx title="secorto.com" subtitle="La pagina de inicio la tengo usando mdx y el timeline es un componente de react"
 ```
 
 <img src={SeCOrToScreen} alt="Captura de pantalla secorto.com"/>
@@ -152,7 +152,7 @@ Por ejemplo el tradicional README.md en:
 
 <Step>
 
-```markdown file=./src/secorto/2019-10-22-blog-con-gatsby.mdx
+```markdown file=./src/secorto/2019-10-22-blog-con-gatsby.mdx title="secorto.com" subtitle="Aca usamos frontmatter para definir algunos valores necesitados para el blog"
 ```
 
 <img src={SeCOrToBlogScreen} alt="Captura de pantalla blog post secorto.com"/>
@@ -163,15 +163,15 @@ Por ejemplo el tradicional README.md en:
 
 ---
 
-# Caso de uso Python Barranquilla
-
-<Split>
-
-<img src={PyBaqAboutAdmin} alt="Python baq página admininstrator con markdown"/>
+<SplitRight>
 
 <img src={PyBaqAbout} alt="Python baq visual renderizada"/>
 
-</Split>
+Python Barranquilla
+
+<img src={PyBaqAboutAdmin} alt="Python baq página admininstrator con markdown"/>
+
+</SplitRight>
 
 ---
 
@@ -181,6 +181,24 @@ Este slide se hizo usando [MDX Deck](https://github.com/jxnblk/mdx-deck)
 y [Code Surfer](https://codesurfer.pomb.us)
 
 Internamente MDX Deck usa [Gatsby](https://www.gatsbyjs.org/)
+
+---
+
+<CodeSurfer theme={github}>
+
+```markdown file=./deck.mdx subtitle="Esta hermosura es el codigo de estos slides"
+```
+
+```markdown 1:25 file=./deck.mdx subtitle="en mdx los import son para lo que necesitemos y un export nos permite cambiar el tema"
+```
+
+```markdown 27:48 file=./deck.mdx subtitle="Todos estos textos se hicieron con markdown"
+```
+
+```markdown 115:131 file=./deck.mdx subtitle="Sin embargo tambien se uso CodeSurfer con jsx para los demos"
+```
+
+</CodeSurfer>
 
 ---
 
